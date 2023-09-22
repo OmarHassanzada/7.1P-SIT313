@@ -1,0 +1,67 @@
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 30px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  input {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  loginbutton {
+    width: 50%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  loginbutton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+
+  .googleloginBtn {
+    width: 50%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    
+  }
+  
+  .googleloginBtn:hover {
+    background-color: #269624;
+  }
